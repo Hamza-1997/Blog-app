@@ -1,0 +1,50 @@
+.article-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 3rem 5rem;
+}
+.article-card {
+  /* padding: 0.3rem; */
+  width: 25%;
+  cursor: pointer;
+  /* height: 50px; */
+  margin: 1rem;
+  background-color: white;
+  margin-bottom: 25px;
+}
+.article-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.article-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding-bottom: 10px;
+}
+.article-subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+.load-more-btn {
+  margin: 0;
+  position: relative;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  background: #1e1b1b;
+  border-radius: 12px;
+  color: #fff;
+  padding: 16px 40px;
+}
+.article-card Link {
+  color: black;
+}

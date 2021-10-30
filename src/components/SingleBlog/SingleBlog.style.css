@@ -1,0 +1,42 @@
+.single-blog-container {
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.info-header {
+  padding: 2rem 5rem;
+}
+.info-header h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: -0.03em;
+}
+
+.info-header p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+
+  opacity: 0.6;
+}
+.single-blog-container .article-container p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+  opacity: 0.6;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+.single-blog-container img {
+  width: 100%;
+  height: auto;
+}
